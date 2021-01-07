@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Statistic } from "semantic-ui-react";
-import { CounterContext } from "./counter-context";
+import { CounterContext } from "../context/counter-context";
 
 export default function CounterDisplay() {
   const [count] = useContext(CounterContext);
